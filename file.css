@@ -1,0 +1,64 @@
+
+html {
+    min-height: 100%;
+    min-width: 100%;
+    overflow-x: hidden;
+}
+body{
+    color: #345434;
+    background-color: currentColor;
+    overflow-x: hidden;
+}
+button:focus {
+    outline: none;
+}
+
+#quote-box {
+    margin: 12% auto;
+    height: 350px;
+    border: 4px solid black;
+    font-size: 20px;
+    font-family: 'Special Elite';
+    background-color: blanchedalmond;
+    position: relative;
+    width:700px;
+    padding:40px 50px;
+    display:table;
+
+}
+#text {
+    padding: 55px 50px 10px 50px
+}
+#author {
+    font-size: 16px;
+    float: right;
+    padding: 10px 60px 0 0
+}
+#button {
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    padding: 90px 0 10 0px;
+}
+a {
+    margin-top: 60px;
+    margin-bottom: -50px
+}
+#tweet-quote {
+    margin-top: 60px;
+    margin-bottom: -50px;
+    margin-left: 50px;
+   color: currentColor;
+   position: relative
+}
+
+#new-quote {
+    margin-top: 60px;
+    float: right;
+    margin-right: -100px;
+    color: currentColor;
+    background-color: currentColor;
+    padding-right: 20px;
+    position: relative
+}
+
